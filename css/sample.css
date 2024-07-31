@@ -2,22 +2,26 @@ body{
     margin:0;
     padding:0;
     text-align:center;
+    width: 100%;
 }
 header{
-    background-color: #fff;
+    background-color: #dc9494;
     border-bottom: 1px solid #ccc;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 footer{
     background-color: #fff;
     border-bottom:1px solid #ccc;
     text-align: center;
 }
-p{
-    font-size:150%;
+.shouhai{
+    font-size:100%;
     text-align: center;
     border-bottom:1px solid #fff;
-    height:50px;
+    height:20px;
 }
 h1{
     font-size: x-large;
@@ -54,8 +58,8 @@ main{
     margin-inline: auto;
 }
 .computer_te{
-    width: auto;
-    height: 217.79px;
+    width: 30%;
+    height: 30%;
     justify-content: center;
 }
 .bg-img:hover{
@@ -66,7 +70,7 @@ main{
     justify-content: center;
 }
 .shokigamen1{
-    width: 60%;
+    width: 30%;
     height: auto;
 }
 .width-com{
@@ -74,4 +78,32 @@ main{
 }
 .width{
     width: 100%;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.btn{
+    font-size: 18px;
+    display: inline-block;
+    padding: 0.5em 1em 0.3em;
+    color: #ffffff;
+    border-radius: 25px;
+    background-color: #0099ff;
+    border: none;
+    cursor: pointer;
+}
+.btn-ichi{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: center;
+}
+.comment{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
