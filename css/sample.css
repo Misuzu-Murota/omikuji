@@ -18,10 +18,9 @@ footer{
     text-align: center;
 }
 .shouhai{
-    font-size:100%;
+    font-size:200%;
     text-align: center;
     border-bottom:1px solid #fff;
-    height:20px;
 }
 h1{
     font-size: x-large;
@@ -73,6 +72,24 @@ main{
     width: 30%;
     height: auto;
 }
+/*コンピューターの初期画面にアニメーションを付けたい 
+.anim-box{
+    animation: poyopoyo 3s ease 0.5s infinite alternate forwards;
+
+}
+.anim-box.poyopoyo {
+    animation: poyopoyo 2s ease-out infinite;
+    opacity: 1; */
+/* } */
+/* @keyframes poyopoyo {
+    0%, 40%, 60%, 80% {
+        transform: scale(1.0);
+    }
+    50%, 70% {
+        transform: scale(0.95);
+    }
+} */
+
 .width-com{
     width: 50%;
 }
@@ -92,18 +109,30 @@ main{
     background-color: #0099ff;
     border: none;
     cursor: pointer;
+    text-align: center;
 }
 .btn-ichi{
+    visibility: hidden;
     display: flex;
-    align-items: center;
-    height: 50px;
     justify-content: center;
+    align-items: center;
+    height: 60px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 .comment{
-    height: 50px;
+    height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 10px;
-    padding-bottom: 10px;
+}
+.comment2{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex{
+    flex: auto;
 }
