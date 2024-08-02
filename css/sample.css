@@ -23,7 +23,11 @@ footer{
     border-bottom:1px solid #fff;
 }
 h1{
-    font-size: x-large;
+    font-size: 35px;
+    height: 60px;
+    text-align: center;
+    align-content: center;
+    margin: auto;
 }
 .img-erabu:hover{
     color:#fff;
@@ -34,7 +38,9 @@ h1{
     height: 20%;
 }
 h3{
-    font-size: 24px;
+    font-size: 25px;
+    height: 40px;
+    align-content: center;
     text-align: left;
     text-indent: 50px;
 }
@@ -72,23 +78,22 @@ main{
     width: 30%;
     height: auto;
 }
-/*コンピューターの初期画面にアニメーションを付けたい 
 .anim-box{
-    animation: poyopoyo 3s ease 0.5s infinite alternate forwards;
-
+    animation-name: poyopoyo;
+    animation-delay: 0s;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
-.anim-box.poyopoyo {
-    animation: poyopoyo 2s ease-out infinite;
-    opacity: 1; */
-/* } */
-/* @keyframes poyopoyo {
+@keyframes poyopoyo {
     0%, 40%, 60%, 80% {
-        transform: scale(1.0);
+        transform: scale(1.2);
     }
     50%, 70% {
-        transform: scale(0.95);
+        transform: scale(0.9);
     }
-} */
+} 
 
 .width-com{
     width: 50%;
